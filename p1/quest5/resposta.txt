@@ -1,0 +1,2 @@
+Para ==, verificamos a iguadade entre os dados do elemento, como 5=5 ou 5 = '5'.
+Para ===, verificamos a iguadade e o tipo, como 5 = 5 ou 5!='5'. Onde ambos são diferentes, já que um é do tipo inteiro e outro do tipo char.

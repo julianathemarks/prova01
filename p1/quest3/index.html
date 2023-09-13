@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Números com JS</title>
+    <style>
+        #calc {
+            background-color: gray;
+            padding: 20px;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Somando dois numeros</h1>
+    <div id="calc">Iniciar a soma</div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const somaDiv = document.getElementById("calc");
+            
+            somaDiv.addEventListener("click", function () {
+                const num1 = prompt("Digite um número:");
+                const num2 = prompt("Digite outro número:");
+                
+                if (num1 !== null && num2 !== null) {
+                    const resultado = parseInt(num1) + parseInt(num2);
+                    
+                    somaDiv.innerText = `A soma entre ${num1} e ${num2} é igual a ${resultado}`;
+                }
+            });
+        });
+    </script>
+</body>
+</html>

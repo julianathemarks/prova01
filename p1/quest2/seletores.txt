@@ -1,0 +1,16 @@
+Seletor de classe, que é o .cl1. 
+Seletor de tipo e classe, que identifica o span.cl1. 
+E tipo e atributo, que é pelo title, definido por "css". 
+
+
+
+
+
+
+
+
+
+
+
+
+
